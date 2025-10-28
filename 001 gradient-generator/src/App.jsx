@@ -83,12 +83,12 @@ function App() {
           
         </div>
         
-        <div className='grid grid-cols-4 gap-4'>
+        <div className='grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-center'>
           {
             gradients.map((item, index) => (
               
               <div key={index}
-              className='h-[150px] w-[200px] rounded-xl relative' 
+              className='h-[150px] w-[220px] rounded-xl relative ' 
               style={{
                 background: item.gradient
 
