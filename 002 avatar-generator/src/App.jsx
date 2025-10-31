@@ -85,8 +85,8 @@ function App() {
   },[option])
 
   return (
-    <div className='animate__animated animate__fadeIn min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex justify-center items-center text-white'>
-      <div className='animate__animated animate__slideInDown flex gap-4 flex-col items-center w-full max-w-min rounded-2xl shadow-xl backdrop-blur-xl border border-slate-700 p-10'>
+    <div className='animate__animated animate__fadeIn min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex justify-center items-center text-white p-4'>
+      <div className='animate__animated animate__slideInDown flex gap-4 flex-col items-center w-full max-w-min rounded-2xl shadow-xl backdrop-blur-xl border border-slate-700 p-6'>
         <img src={src || 'src/assets/src.jpg'}
         className='w-32 h-32 rounded-full border-4 border-slate-700 shadow-lg object-cover' />
         <div className='text-center'>

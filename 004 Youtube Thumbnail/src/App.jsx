@@ -67,7 +67,7 @@ function App() {
     <div className='min-h-screen p-8 bg-gray-200 flex flex-col gap-12'>
       <div className='text-center flex flex-col gap-6'>
         <h1 className='text-3xl  font-bold'>
-          Youtube Thumbnail Downloader <span className='text-red-400'>{url}</span>
+          Youtube Thumbnail Downloader 
         </h1>
         <form onSubmit={fetchThumbnail}>
           <input
